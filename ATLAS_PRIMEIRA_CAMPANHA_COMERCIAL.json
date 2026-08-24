@@ -1,0 +1,26 @@
+{
+  "campaign_id": "campaign-c20253f68d0fb0be",
+  "topic": "christian testimony human",
+  "vertical_key": "FAITH_HUMAN_STORIES",
+  "expected_roi_class": "MEDIUM",
+  "assets": [
+    {
+      "asset_type": "LONG_FORM_VIDEO",
+      "objective": "Criar conteúdo original e superior baseado em padrões de oportunidade, sem copiar fontes."
+    },
+    {
+      "asset_type": "SHORT",
+      "objective": "Testar um gancho curto derivado do mesmo tema."
+    },
+    {
+      "asset_type": "SHORT",
+      "objective": "Testar uma segunda abordagem de retenção."
+    }
+  ],
+  "source_evidence_urls": [
+    "https://www.youtube.com/watch?v=4NxBAKI-Qbs",
+    "https://www.youtube.com/watch?v=3Lnw9YLkZ0k",
+    "https://www.youtube.com/watch?v=sFLBilHYdKs"
+  ],
+  "real_publication_authorized": false
+}

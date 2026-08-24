@@ -1,0 +1,14 @@
+ATLAS CHAT HANDOFF CHECKPOINT — 19/08/2026
+
+Arquivos:
+- ATLAS_CHAT_HANDOFF_2026-08-19.md
+- ATLAS_NEW_CHAT_START_PROMPT_2026-08-19.txt
+- scripts/apply_atlas_chat_handoff_2026_08_19.ps1
+
+O instalador faz backup e acrescenta checkpoint (sem apagar histórico) em:
+- ATLAS_PROJECT_STATE.md
+- ATLAS_NEXT_CHAT_HANDOFF.md
+- ATLAS_MAINTENANCE_PLAN.md
+- CHANGELOG.md
+
+Sem Runway, Gemini, publicação ou custo externo.

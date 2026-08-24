@@ -1,0 +1,5 @@
+ATLAS RUNWAY I2V CINEMATIC PILOT CONTROLLED RETRY - RUFF FIX V2
+file=atlas/production/runway_i2v_cinematic_pilot_controlled_retry.py
+sha256=EF2373B19FD8403A3C823494F4E756B1EF6594F389DA033DD588CB40E322E92F
+max_line_length=87
+purpose=Replace stale module containing the two E501 lines.

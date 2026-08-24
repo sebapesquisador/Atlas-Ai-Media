@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "atlas-ai-media"
+version = "0.4.0"
+description = "ATLAS AI Media Platform"
+requires-python = ">=3.14"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["atlas*"]
+exclude = [
+    "data*",
+    "logs*",
+    "tests*",
+    "scripts*",
+]
+namespaces = false
+
+[tool.black]
+line-length = 88
+target-version = ["py314"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py314"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "I",
+]
+
+[tool.pytest.ini_options]
+pythonpath = [
+    "."
+]
+
+testpaths = [
+    "tests"
+]
+[tool.ruff.lint.per-file-ignores]
+# Legacy research fixtures contain long source excerpts and compact data tables.
+# Functional and correctness rules remain active; only formatting-only findings
+# are waived until these fixtures are migrated to dedicated data files.
+"atlas/research/**/*.py" = ["E501", "I001"]
+"tests/research/**/*.py" = ["E501", "I001", "E701", "E702"]
+# Legacy script and narration modules contain long deterministic templates and
+# compact fixtures. Correctness rules remain active while formatting-only
+# findings are migrated incrementally.
+"atlas/script/**/*.py" = ["E501", "I001"]
+"tests/script/**/*.py" = ["E501", "I001"]

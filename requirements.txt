@@ -1,0 +1,23 @@
+# Production dependencies for ATLAS AI MEDIA.
+#
+# AI providers
+openai
+google-genai
+
+# Config
+python-dotenv
+
+# Voice Manager (free-tier TTS providers)
+pyttsx3
+gtts
+
+# Image Manager (free-tier thumbnail image generation)
+requests
+
+# Scene-aware visual generation
+Pillow
+
+# YouTube Data API + OAuth
+Google-API-Python-Client
+google-auth-oauthlib
+google-auth-httplib2
